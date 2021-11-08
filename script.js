@@ -43,7 +43,8 @@ btn.addEventListener('click', function () {
             guess.value = "";
         }
         else {
-            msg.innerHTML = `Sorry :( "${tempWord}" is incorrect.
+            msg.innerHTML = `Sorry :( "${tempWord}" is incorrect. NOTE: It is case-sensitive.
+            
             Guess again : "${randWords.join("")}"`;
             guess.value = "";
             //console.log("incorrect");
